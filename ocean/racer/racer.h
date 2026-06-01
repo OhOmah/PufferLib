@@ -181,7 +181,7 @@ Client* make_client(WhiskerRacer* env) {
     InitWindow(env->width, env->height, "PufferLib Whisker Racer");
     if (env->render_many) SetTargetFPS(10 / env->frameskip);
     else SetTargetFPS(60 / env->frameskip);
-    env->puffer = LoadTexture("resources/shared/puffers_128.png");
+    env->puffer = LoadTexture("resources/shared/f1.png");
 
     return client;
 }
