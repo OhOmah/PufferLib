@@ -1,4 +1,4 @@
-#include "whisker_racer.h"
+#include "racer.h"
 #define OBS_SIZE 3
 #define NUM_ATNS 1
 #define ACT_SIZES {3}

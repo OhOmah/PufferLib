@@ -1,5 +1,5 @@
 #include <time.h>
-#include "whisker_racer.h"
+#include "racer.h"
 #include "puffernet.h"
 
 void demo() {
