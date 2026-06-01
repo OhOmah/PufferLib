@@ -178,7 +178,7 @@ Client* make_client(WhiskerRacer* env) {
     client->turn_pi_frac = env->turn_pi_frac;
     client->maxv = env->maxv;
 
-    InitWindow(env->width, env->height, "PufferLib Whisker Racer");
+    InitWindow(env->width, env->height, "Omar's AI Racer");
     if (env->render_many) SetTargetFPS(10 / env->frameskip);
     else SetTargetFPS(60 / env->frameskip);
     env->puffer = LoadTexture("resources/shared/f1.png");
